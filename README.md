@@ -1,4 +1,4 @@
-# #CNN-vs-Random-Forest-for-Image-Classification
+# CNN-vs-Random-Forest-for-Image-Classification
 ● Here I have done image classification of 4 different types of furniture which are bed,chair,sofa,table.For training I have used Google Colab and the 2 different .pynb notebooks(Random Forest.ipynb,CNN-Transfer_Learning.ipynb).<br/>
 ● For each class I have 424 training images and 23 validation images.<br/>
 ● Here I have used 2 methods for image classification which are -<br/>
@@ -10,11 +10,13 @@
   ○ I have converted the dataset into pickle files by using “Loading in our own data.ipynb” so that dataset can be converted into
     required format.<br/>
   ○ The Confusion matrix I got is shown below -<br/>
+  ![alt text](Random_Forest.png)<br/>
 # CNN method using Transfer Learning
 ● In next method I have used CNN method by using transfer learning in which I have used pretrained weights of Imagenet.<br/>
   ○ The accuracy over here is 94 %<br/>
   ○ I have trained for 15 epochs and the batch size was 8.<br/>
   ○ The Confusion Matrix is shown below -<br/>
+  ![alt text](CNN.png)<br/>
 
 # Result
 ● In Conclusion using CNN method is very much better and efficient as compared to Random Forest method for image classification as
