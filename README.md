@@ -1,4 +1,4 @@
-# CNN-vs-Random-Forest-for-Image-Classification
+# #CNN-vs-Random-Forest-for-Image-Classification
 ● Here I have done image classification of 4 different types of furniture which are bed,chair,sofa,table.For training I have used Google Colab and the 2 different .pynb notebooks(Random Forest.ipynb,CNN-Transfer_Learning.ipynb).<br/>
 ● For each class I have 424 training images and 23 validation images.<br/>
 ● Here I have used 2 methods for image classification which are -<br/>
